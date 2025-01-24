@@ -70,4 +70,4 @@ The Autoencoder model used for anomaly detection was trained on time-series data
 
 The model was trained with 50 timesteps of data, which is typically the length of the data sequence processed by the Autoencoder.
 The anomaly detection threshold is dynamically set based on the 95th percentile of reconstruction errors.
----
+
