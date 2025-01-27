@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 from tensorflow.keras.models import load_model
 
 # Load the trained model without compiling
-MODEL_PATH = r"C:\Users\Kanchan\Downloads\occupancy+detection\anomaly_detection_autoencoder.h5"
+MODEL_PATH = r"anomaly_detection_autoencoder.h5"
 model = load_model(MODEL_PATH, compile=False)
 
 # Assuming the model was trained with 50 timesteps
